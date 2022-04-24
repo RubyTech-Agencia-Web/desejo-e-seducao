@@ -1,0 +1,114 @@
+#footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista{
+    font-size: 17px;
+    line-height: 24px;
+}
+  
+.footer__contato{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 2rem 0;
+}
+  
+.footer__small-line{
+    width: 87px;
+    height: 0px;
+    border: 1px solid #F50052;
+}
+  
+.icon{
+    display: inline;
+}
+
+.footer_atendimento li{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+  
+.footer__redes-sociais{
+    margin-top: 15px;
+}
+  
+.paragrafo{
+    display: inline-block;
+    margin-top: 15px;
+    text-align: justify;
+    width: 70%;
+}
+  
+  .texto{
+    display: inline;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .texto:hover {
+      color: black;
+  }
+  
+  .flex{
+  display: flex;
+  align-items: center;
+  }
+  
+  .formasdepagamento{
+  padding-top: 2%;
+  padding-bottom: 1rem;
+  }
+  
+  .fp{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 20px;
+  }
+  
+  .footer__small-linefp{
+  margin-top: 35px;
+  
+  }
+  
+  .footer__credenciais{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  }
+  
+  .footer__credenciais-empresa{
+    font-size: 16px;
+    line-height: 2rem ;
+  }
+
+.formasdepagamento ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer__item {
+    text-align: center;
+}
+
+.footer__lista-metodospgto {
+    gap: 2rem
+}
+
+@media screen and (max-width: 1200px) {
+    .footer__contato{
+    display: block
+}
+    #footer {
+        text-align: center;
+    }
+    
+    .footer__contato hr, li {
+        margin: 0 auto;
+    }
+}

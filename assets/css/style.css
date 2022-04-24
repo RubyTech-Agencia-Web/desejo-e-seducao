@@ -1,0 +1,98 @@
+@import url(reset.css);
+
+/*=============== IMPORTANDO CSS ===============*/
+@import url(home/introducao.css);
+@import url(home/sobrenos.css);
+@import url(home/bootstrap.min.css);
+@import url(home/avaliacoes.css);
+@import url(home/faq.css);
+@import url(home/nav.css);
+@import url(home/produtos.css);
+@import url(home/swiper.css);
+@import url(home/footer.css);
+
+/*=============== IMPORTANDO FONTE ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*=============== CONFIGURAÇÃO GLOBAL ===============*/
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --corPrincipal: #FA3C3C;
+}
+
+a {
+    color: #111111;
+    text-decoration: none;
+    outline: none;
+    list-style-type: none;
+}
+  
+a:hover,
+a:active,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.titulo__secao {
+    padding: 2rem;
+    font-size: 36px;
+    color: #293145;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+}
+  
+.titulo__descricao {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: #293145;
+    width: 50%;
+}
+  
+.section-bg {
+    width: 100%;
+    background: #f5f8fd;
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+    width: 0.6rem;
+    border-radius: .5rem;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fa3c3cce;
+    border-radius: .5rem;
+}
+
+/*=============== MEDIA QUERIES ===============*/
+@media screen and (max-width: 320px) {
+    .container {
+      margin-right: 1rem;
+}
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }

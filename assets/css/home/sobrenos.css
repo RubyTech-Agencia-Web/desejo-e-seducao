@@ -1,0 +1,48 @@
+/*=============== INTRODUÇÃO ===============*/
+#sobrenos {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobrenos__conteudo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-content: center;
+  align-items: center;
+}
+
+.sobrenos__conteudo p {
+  text-align: justify;
+  margin: auto;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 60px;
+  color: #535074;
+   margin-right: 5%;
+}
+
+.sobrenos__titulo {
+  padding: 1rem 0;
+  font-size: 36px;
+  color: #293145;
+  font-weight: 700;
+} 
+
+@media screen and (max-width: 700px) {
+  .sobrenos__imagem {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sobrenos__conteudo {
+    display: block;
+  }
+  .sobrenos__titulo {
+    text-align: center;
+  }
+  .sobrenos__imagem {
+    display: none;
+  }
+}

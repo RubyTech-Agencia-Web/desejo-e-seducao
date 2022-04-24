@@ -1,0 +1,39 @@
+/*=============== AVALIAÇÕES ===============*/
+#avaliacoes {
+    width: 100%;
+    padding: 1.5rem 0;
+}
+  
+#avaliacoes .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+  
+#avaliacoes .box:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+  
+#avaliacoes .avaliacoes__nome {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+  
+#avaliacoes .avaliacoes__nome a {
+    color: #111;
+}
+  
+#avaliacoes .avaliacoes__descricao {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: left;
+}

@@ -1,0 +1,62 @@
+/*=============== FAQ ===============*/
+#faq {
+    padding: 1.5rem 0;
+    overflow: hidden;
+    width: 100%;
+}
+  
+#faq #faq__lista {
+    padding: 0;
+    list-style: none;
+}
+  
+#faq #faq__lista li {
+    border-bottom: 1px solid #ebebeb;
+}
+  
+#faq #faq__lista a {
+    padding: 22px 0;
+    display: block;
+    position: relative;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+#faq #faq__lista a:hover {
+    color: #000000
+}
+  
+#faq #faq__lista i {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+  
+#faq #faq__lista p {
+    margin-bottom: 20px;
+}
+  
+#faq #faq__lista a.collapse {
+    color: #1bdc7c;
+}
+  
+#faq #faq__lista a.collapsed {
+    color: #000;
+}
+  
+#faq #faq__lista a.collapsed i::before {
+    content: "\002B";
+}
+
+@media (max-width: 768px) {
+#faq #faq__lista a {
+    font-size: 18px;
+}
+      
+#faq #faq__lista i {
+    top: 13px;
+}
+}

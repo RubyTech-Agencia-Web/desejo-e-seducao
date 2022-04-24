@@ -20,6 +20,10 @@
     margin-bottom: 50px;
     margin-top: 3rem;
 }
+
+.introducao__imagem {
+    margin: 0 auto;
+}
   
 .introducao__informacoes a {
     text-align: center;

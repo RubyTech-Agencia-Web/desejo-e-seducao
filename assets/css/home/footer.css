@@ -25,14 +25,17 @@
   
 .icon{
     display: inline;
+    padding-right: 0.7rem;
 }
 
-.footer_atendimento li{
-    display: flex;
-    align-items: center;
+.footer__atendimento--links {
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-content: center;
+    align-items: center;
+    margin: 1rem 0;
 }
-  
+
 .footer__redes-sociais{
     margin-top: 15px;
 }
@@ -44,32 +47,33 @@
     width: 70%;
 }
   
-  .texto{
+.texto{
     display: inline;
-    margin-top: 20px;
-    margin-left: 10px;
-  }
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
 
-  .texto:hover {
+.texto:hover {
       color: black;
-  }
+}
   
-  .flex{
+.flex{
   display: flex;
   align-items: center;
-  }
+}
   
-  .formasdepagamento{
+.formasdepagamento{
   padding-top: 2%;
   padding-bottom: 1rem;
-  }
+}
   
-  .fp{
+.fp{
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
     padding-top: 20px;
-  }
+}
   
   .footer__small-linefp{
   margin-top: 35px;
